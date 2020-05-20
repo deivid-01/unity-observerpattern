@@ -13,7 +13,7 @@ public class DoorController : MonoBehaviour
         //Observer 2
         GameEvents.Instance.OnDoorTriggerExit += OnDoorExit; //Subscribe methods
     }
-    private void OnDoorOpen ( int id )
+    private void  OnDoorOpen ( int id )
     {
         if ( id == this.id )
         {
